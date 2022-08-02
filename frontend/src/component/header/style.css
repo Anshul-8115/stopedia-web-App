@@ -1,0 +1,36 @@
+.header-content li{
+  /* color:royalblue; */
+  font-weight: bold;
+  /* width: 100vw; */
+}
+.main-nav{
+  margin:0;
+}
+.search{
+  width: 200px;
+}
+.navbar{
+  width: 100%;
+}
+.app nav{
+  margin:0;
+}
+.btn-search{
+    display: inline;
+}
+.search-res{
+  display: inline;
+  
+  position: absolute;
+  /* width: 200px; */
+  /* background-color: green; */
+}
+@media only screen and (max-width:1150px){
+  .search{
+    max-width: 600px;
+    width: 80vw;
+  }
+  .btn-search{
+    margin-top: 20px;
+  }
+}
